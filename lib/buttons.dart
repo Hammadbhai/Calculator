@@ -8,6 +8,7 @@ class MyButton extends StatelessWidget {
   final String buttonText;
   final buttontapped;
 
+<<<<<<< Updated upstream
 //Constructor
   MyButton(
       {this.color,
@@ -15,6 +16,15 @@ class MyButton extends StatelessWidget {
       required this.buttonText,
       this.buttontapped});
 
+=======
+  const Button({
+    required this.btntext,
+    required this.btncolor,
+    required this.btntextcolor,
+    required this.btntextsize,
+    this.buttontapped,
+  });
+>>>>>>> Stashed changes
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
